@@ -1,6 +1,6 @@
 ```
 #
-# Copyright (C) 2023 Paranoid Android
+# Copyright (C) 2023 LineageOS
 #
 # SPDX-License-Identifier: Apache-2.0
 #
