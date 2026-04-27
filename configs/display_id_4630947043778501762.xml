@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<displayConfiguration>
+    <screenBrightnessMap>
+        <point>
+            <value>0.00219780</value>
+            <nits>2.0</nits>
+        </point>
+        <point>
+            <value>0.00934538</value>
+            <nits>7.0</nits>
+        </point>
+        <point>
+            <value>0.01363393</value>
+            <nits>10.0</nits>
+        </point>
+        <point>
+            <value>0.01649296</value>
+            <nits>12.0</nits>
+        </point>
+        <point>
+            <value>0.03364715</value>
+            <nits>24.0</nits>
+        </point>
+        <point>
+            <value>0.13514277</value>
+            <nits>95.0</nits>
+        </point>
+        <point>
+            <value>0.15801506</value>
+            <nits>111.0</nits>
+        </point>
+        <point>
+            <value>0.21233667</value>
+            <nits>149.0</nits>
+        </point>
+        <point>
+            <value>0.27380586</value>
+            <nits>192.0</nits>
+        </point>
+        <point>
+            <value>0.35957682</value>
+            <nits>252.0</nits>
+        </point>
+        <point>
+            <value>0.85811967</value>
+            <nits>500.0</nits>
+        </point>
+        <point>
+            <value>1.00000000</value>
+            <nits>1100.0</nits>
+        </point>
+    </screenBrightnessMap>
+    <highBrightnessMode enabled="true">
+    <transitionPoint>0.85811967</transitionPoint>
+    <minimumHdrPercentOfScreen>0.1</minimumHdrPercentOfScreen>
+    <minimumLux>6500</minimumLux>
+    <timing>
+        <timeWindowSecs>0</timeWindowSecs>  // Window in which we restrict HBM.
+        <timeMaxSecs>0</timeMaxSecs>         // Maximum time of HBM allowed in that window.
+        <timeMinSecs>0</timeMinSecs>          // Minimum time remaining required to switch
+    </timing>                                //   HBM on for.
+    <thermalStatusLimit>critical</thermalStatusLimit>
+    <allowInLowPowerMode>true</allowInLowPowerMode>
+    <sdrHdrRatioMap>
+        <point>
+            <sdrNits>6.0</sdrNits>
+            <hdrRatio>10.0</hdrRatio>
+        </point>
+        <point>
+            <sdrNits>500</sdrNits>
+            <hdrRatio>2.1</hdrRatio>
+        </point>
+        <point>
+            <sdrNits>800</sdrNits>
+            <hdrRatio>1.2</hdrRatio>
+        </point>
+    </sdrHdrRatioMap>
+    </highBrightnessMode>
+    <screenBrightnessRampFastDecrease>0.06</screenBrightnessRampFastDecrease>
+    <screenBrightnessRampFastIncrease>0.06</screenBrightnessRampFastIncrease>
+    <screenBrightnessRampSlowDecrease>0.04</screenBrightnessRampSlowDecrease>
+    <screenBrightnessRampSlowIncrease>0.04</screenBrightnessRampSlowIncrease>
+    <screenBrightnessRampIncreaseMaxMillis>3000</screenBrightnessRampIncreaseMaxMillis>
+    <screenBrightnessRampDecreaseMaxMillis>3000</screenBrightnessRampDecreaseMaxMillis>
+</displayConfiguration>
