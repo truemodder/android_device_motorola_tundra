@@ -30,3 +30,8 @@ Front Camera | 32 MP, f/2.5, (wide), 1/2.8", 0.8µm, AF
 ## Device picture
 
 ![Motorola Edge 30 Fusion](https://motorolain.vtexassets.com/arquivos/ids/157724-800-auto?width=800&height=auto&aspect=true)
+
+
+
+Credits for base trees: LineageOS
+Credits for dolby atmos and some changes in audio_effects.xml: sudo-joaopuser
